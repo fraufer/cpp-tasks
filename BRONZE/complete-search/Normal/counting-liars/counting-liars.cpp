@@ -24,8 +24,8 @@ int main(){
         for(int j = 0; j < n; ++j){
             if(cows[j].first == 'G' && cows[i].second < cows[j].second){
                 forLiars++;
-            } else(cows[j].first == 'L' && cows[i].second > cows[j].second){
-                forLiars++
+            } else if(cows[j].first == 'L' && cows[i].second > cows[j].second){
+                forLiars++;
             }
         }
 
